@@ -18,3 +18,12 @@ de imprimir o fim de linha após o resultado, caso contrário, você receberá
 # Link do problema: https://judge.beecrowd.com/pt/problems/view/1005
 
 # Escreva sua solução abaixo
+
+A = float(input())
+B = float(input())
+
+# Cálculo com pesos 3.5 e 7.5
+media = ((A * 3.5) + (B * 7.5)) / 11
+
+# O exercício pede 5 casas decimais (conforme o padrão do site para este ID)
+print(f"MEDIA = {media:.5f}")
