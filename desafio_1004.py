@@ -15,3 +15,11 @@ caso contrário seu programa apresentará a mensagem: "Presentation Error".
 # Link do problema: https://judge.beecrowd.com/pt/problems/view/1004
 
 # Escreva sua solução abaixo
+
+
+val1 = int(input())
+val2 = int(input())
+
+PROD = val1 * val2
+
+print(f"PROD = {PROD}")
